@@ -1,2 +1,2 @@
 # primetime
-Finding all prime numbers 2 > a in JAVA
+Finding all prime numbers up to 'a' in JAVA
