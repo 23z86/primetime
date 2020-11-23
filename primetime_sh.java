@@ -8,14 +8,14 @@ public class PrimeTimeShort {
 			int a = input.nextInt();
 			input.close();
 			boolean ifPrime = true;
-	        /*               |     i must be a-1
-           *               |     otherwise a will be divided by itself 
-           *               V     and this results a remainder = zero */
+	                              /*               |     i must be a-1
+                                       *               |     otherwise a will be divided by itself 
+                                       *               V     and this results a remainder = zero */
 					for(int i = 2; i < a && ifPrime; i++) {
 						if((a % i) == 0) { 
 							ifPrime = false;
 						}
-           // Optional step
+                                         // Optional step
 					 System.out.println(a + " mod " + i + " = " + (a % i));
 					}
 
