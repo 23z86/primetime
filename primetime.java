@@ -15,8 +15,7 @@ public class PrimeTime {
 			ifPrime = true;
 			
 				/*	this loop calculates the remainder of an integer division
-				 *	as long as j < 
-				//	go to (*)
+				 	go to (*) */
 				for(int j = 2; j < i && ifPrime; j++) {
 					
 				/*	
